@@ -4,6 +4,7 @@
 ## Build Instructions (for Windows 10/11)
 
 - Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+	- Check current version of WSL using ``wsl -l -v``
 	- Open command prompt as administrator and use ``wsl --install``
 - Shift + Right Click in project directory
 - From the context menu select "Open Linux shell here"
