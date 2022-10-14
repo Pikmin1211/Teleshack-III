@@ -22,7 +22,7 @@
 	- Delete the script from the project directory
 	- Add DotNet to PATH using ``$export PATH=$PATH:/usr/share/dotnet``
 - Run Make using ``$make hack``
-	- Make will return ``make: Nothing to do be done for 'hack'.`` if it does not find any changes in dependant files.
+	- Make will return ``make: Nothing to be done for 'hack'.`` if it does not find any changes in dependant files.
 	- In this case you can force make to recompile by deleting ``Teleshack-III.gba`` from the project directory. 
 
 ## Credits
