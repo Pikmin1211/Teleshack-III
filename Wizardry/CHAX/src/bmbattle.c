@@ -19,5 +19,5 @@ void ComputeBattleUnitAvoidRate(struct BattleUnit* battleUnit){
 	avoidRate += battleUnit->unit.lck;
 	avoidRate += battleUnit->terrainAvoid;
 
-    battleUnit->battleAvoidRate = avoidRate;
+	battleUnit->battleAvoidRate = avoidRate;
 }
