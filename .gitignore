@@ -29,3 +29,6 @@ __pycache__/
 *.sublime-workspace
 *.tiled-project
 *.tiled-session
+
+# generic installer files
+**/Installer.event

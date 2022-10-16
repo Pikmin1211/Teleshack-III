@@ -21,6 +21,14 @@
 	- Run the script using ``$sudo ./dotnet-install.sh --install-dir /usr/share/dotnet -c 5.0 --runtime dotnet``
 	- Delete the script from the project directory
 	- Add DotNet to PATH using ``$export PATH=$PATH:/usr/share/dotnet``
+- Install [devkitPro](https://devkitpro.org/wiki/)
+	- Install [devkitPro pacman](https://devkitpro.org/wiki/devkitPro_pacman)
+		- Download the install script using ``$wget https://apt.devkitpro.org/install-devkitpro-pacman``
+		- Give the script execution permissions using ``$chmod +x ./install-devkitpro-pacman``
+		- Run the script using ``$sudo ./install-devkitpro-pacman``
+		- Delete the script from the directory
+	- Use pacman to install devkitPro using ``$sudo dkp-pacman -S gba-dev``
+		- Press Enter without typing to install with defaults
 - Run Make using ``$make hack``
 	- Make will return ``make: Nothing to be done for 'hack'.`` if it does not find any changes in dependant files.
 	- In this case you can force make to recompile by deleting ``Teleshack-III.gba`` from the project directory. 

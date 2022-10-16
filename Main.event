@@ -1,5 +1,4 @@
 
 ORG 0x1000000
-Freespace:
 
-BYTE 0
+#include "Wizardry/CHAX/Installer.event"
