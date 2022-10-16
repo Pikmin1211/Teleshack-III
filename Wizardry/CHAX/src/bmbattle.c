@@ -1,7 +1,7 @@
 #include "gbafe.h"
 #include "bmbattle.h"
 
-void ComputeBattleUnitHitRate(struct BattleUnit* battleUnit){
+void ComputeBattleUnitHitRate(BattleUnit* battleUnit){
 	int hitRate = 0;
 
 	hitRate += battleUnit->unit.skl;
@@ -9,15 +9,19 @@ void ComputeBattleUnitHitRate(struct BattleUnit* battleUnit){
 	hitRate += GetItemHit(battleUnit->weapon);
 	hitRate += battleUnit->wTriangleHitBonus;
 
+	if (hitRate < 0) hitRate = 0;
+
 	battleUnit->battleHitRate = hitRate;
 }
 
-void ComputeBattleUnitAvoidRate(struct BattleUnit* battleUnit){
+void ComputeBattleUnitAvoidRate(BattleUnit* battleUnit){
 	int avoidRate = 0;
 
 	avoidRate += battleUnit->battleSpeed;
 	avoidRate += battleUnit->unit.lck;
 	avoidRate += battleUnit->terrainAvoid;
+
+	if (avoidRate < 0) avoidRate = 0;
 
 	battleUnit->battleAvoidRate = avoidRate;
 }
