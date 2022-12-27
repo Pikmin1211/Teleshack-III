@@ -25,3 +25,14 @@ void ComputeBattleUnitAvoidRate(BattleUnit* battleUnit){
 
 	battleUnit->battleAvoidRate = avoidRate;
 }
+
+void ComputeBattleUnitSpeed(BattleUnit* battleUnit) {
+	int battleSpeed = 0;
+
+	battleSpeed += battleUnit->unit.spd;
+	battleSpeed -= GetItemWeight(battleUnit->weaponBefore);
+
+	if (battleSpeed < 0) battleSpeed = 0;
+
+	battleUnit->battleSpeed = battleSpeed;
+}
