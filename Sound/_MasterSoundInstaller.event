@@ -1,0 +1,3 @@
+#include "MPlayDef.event"
+#define SoundTableEntry(index,SongPointer,Group) "PUSH; ORG SoundTable+(8*index); POIN SongPointer; SHORT Group Group; POP"
+{

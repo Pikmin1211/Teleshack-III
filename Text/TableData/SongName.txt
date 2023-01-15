@@ -1,0 +1,17 @@
+## Adversity_Name
+FE5 - Adversity[X]
+
+## FE6Attack_Name
+FE6 - Attack[X]
+
+## RevengeFE6_Name
+FE6 - Revenge[X]
+
+## FriendshipAndAdventure_Name
+FE7 - Friendship and Adventure[X]
+
+## EnemiesAppear_Name
+FE7 - Enemies Appear[X]
+
+## EndlessBattle_Name
+FE12 - Endless Battle[X]

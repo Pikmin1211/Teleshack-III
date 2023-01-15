@@ -1,0 +1,7 @@
+#include "_Definitions.event"
+#include "WorldMap/Installer.event"
+
+{
+//#include "_Debug.event"
+//#include "Chapter_00.event"
+}

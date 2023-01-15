@@ -1,0 +1,85 @@
+{
+
+EventPointerTable(0xC5, PointerList)
+
+ALIGN 4
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN SelectionEvents MovingEvents MovedEvents Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1Hard
+	POIN $0 $0 $0 // Skrimish Ally
+	POIN $0 $0 $0 // Skrimish Enemy
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	END_MAIN
+
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	AFEV 0 GameOver 0x65
+	END_MAIN
+
+LocationBasedEvents:
+
+	END_MAIN
+
+SelectionEvents:
+
+	END_MAIN
+
+MovingEvents:
+
+	END_MAIN
+
+MovedEvents:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+Units1Hard:
+	UNIT Olmos Thief 0 Level(1, Ally, 0) [0, 0] 0 0 0 0 [EspadaAncha, Herb] DefaultAI
+	UNIT Domingo WarMonk 0 Level(1, Ally, 0) [1, 0] 0 0 0 0 [Soothe, LightRuneStaff, Physic] DefaultAI
+	UNIT
+
+EnemyUnits:
+	UNIT Hacha Pirate 0 Level(5, Enemy, 0) [2, 0] 0 0 0 0 [IronAxe] DefaultAI
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+	LOAD1 0x1 Units1
+	ENUN
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	SVAL 0x1 Domingo
+	SVAL 0x2 wtStaff
+	SVAL 0x3 SRank
+	ASMC ASMC_GiveWeaponRank
+	CALL PrepScreen
+	ENDA
+
+EndingScene:
+	MNC2 Chapter_01
+	NoFade
+	ENDA
+
+}
