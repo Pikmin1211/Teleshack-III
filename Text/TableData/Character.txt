@@ -1,0 +1,70 @@
+## AlishaName
+Alisha[X]
+
+## AlishaDesc
+Lord of House Fil.[N]
+Considered a model leader.[X]
+
+## AskaName
+Aska[X]
+
+## AskaDesc
+The princess of House Fil.[N]
+Dutiful and serious.[X]
+
+## BrunelName
+Brunel[X]
+
+## BrunelDesc
+The prince of House Fil.[N]
+Good at heart, but struggles[N]
+with the weight of his duty.[X]
+
+## BlickName
+Blick[X]
+
+## BlickDesc
+[X]
+
+## XanthanName
+Xanthan[X]
+
+## XanthanDesc
+A pirate leader from Biloxi.[N]
+Brash, but loyal to a personal code.[X]
+
+## TillostonName
+[_T]ill[_o]t[_s][_o]n[X]
+
+## TillotsonDesc
+A rookie knight of House Fil.[N]
+Upbeat, yet possesses a somber air.[X]
+
+## GulName
+Gul[X]
+
+## GulDesc
+A seasoned knight of House Fil.[N]
+Exceedingly loyal.[X]
+
+## LinflasName
+Linflas[X]
+
+## LinflasDes
+A knight of House Fil.[N]
+Cheerful, but he's guarded[N]
+about his past.[X]
+
+## KareemName
+Kareem[X]
+
+## KareemDesc
+A knight of House Fil.[N]
+An intellectual loner.[X]
+
+## MeyveName
+Meyve[X]
+
+## MeyveDesc
+A knight of House Fil.[N]
+Sociable, but dislikes formality.[X]
