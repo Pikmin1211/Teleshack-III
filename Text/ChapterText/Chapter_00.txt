@@ -1,0 +1,17 @@
+## Chapter_00_Name
+Plg. Envy On The Coast[X]
+
+## Chapter_00_Objective 
+Seize the fort.[X]
+
+## Chapter_00_Goal_Window 
+Seize[X]
+
+## Chapter_00_Opening
+Placeholder.[X]
+
+## Chapter_00_PreBattle
+Placeholder.[X]
+
+## Chapter_00_EndingScene
+Placeholder[X]
